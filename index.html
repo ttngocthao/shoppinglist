@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Barcode+39+Text" rel="stylesheet">
+	<script src='script.js'></script>
+</head>
+<body>
+    <main>
+        <section class='binder'>
+            <img src='https://i.imgur.com/DRJgTWI.png'/><img src='https://i.imgur.com/DRJgTWI.png'/>
+        </section>
+        <div class='ribbon'>
+            <img src='https://i.imgur.com/dekgHjF.png'/>
+        </div>
+        <div class='form'>
+            <form name='additem'>
+                <input type='text' name='item'/>
+                <input type='button' value='Add' onClick='processForm()'/>
+                <input type="reset">
+            </form>
+        </div>
+        <section class='result'>
+            <h3> Date: .........................</h3>
+            <div id='mylist'></div>
+        </section>
+        <span class='new-list-bttn'>
+            <input type='button' value='New List' onClick='clearForm()'/>
+        </span>
+</body>
+</html>

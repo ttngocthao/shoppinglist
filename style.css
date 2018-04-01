@@ -1,0 +1,68 @@
+/*font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Indie Flower', cursive;*/
+main{
+    background-image:url('http://farm5.staticflickr.com/4632/39941742332_5cdaa4e65e_b.jpg');
+    width: 750px;
+    height: 820px;
+    position: relative;
+    margin: auto;
+    font-size: 18pt;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 3px #888;
+}
+
+.ribbon img{
+    width: 750px;
+    height: 150px;
+}
+
+.binder img{
+    position: relative;
+    margin: auto;
+    height: 70px;
+}
+.form {
+    text-align: center;
+}
+input, #mylist, h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18pt;
+}
+input[type=text]{
+    padding: 5px;
+    font-size: 18pt;
+    width: 200px;
+}
+input[type=button], input[type=reset]{
+    padding: 5px;
+    letter-spacing: 0.3em
+    
+}
+.result{
+    text-align: center;
+    padding-top: 5px;
+    width: 400px;
+    height:480px;
+    background-color: RGBA(147,169,90,0.9);
+    position: relative;
+    margin: auto;
+    
+    border-radius: 20px;
+}
+.result h3{
+    color: #101f00;
+    letter-spacing: 0.2em;
+}
+.result #mylist{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    font-size: 25pt;
+}
+.new-list-bttn {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+}
